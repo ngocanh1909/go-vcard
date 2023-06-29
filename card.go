@@ -38,8 +38,8 @@ const (
 	FieldXML    = "XML"
 
 	// Identification Properties
-	FieldFormattedName = "FN"
-	FieldName          = "N"
+	FieldFormattedName = "FN;CHARSET=utf-8"
+	FieldName          = "N;CHARSET=utf-8"
 	FieldNickname      = "NICKNAME"
 	FieldPhoto         = "PHOTO"
 	FieldBirthday      = "BDAY"
@@ -47,7 +47,7 @@ const (
 	FieldGender        = "GENDER"
 
 	// Delivery Addressing Properties
-	FieldAddress = "ADR"
+	FieldAddress = "ADR;CHARSET=utf-8"
 
 	// Communications Properties
 	FieldTelephone = "TEL"
@@ -60,10 +60,10 @@ const (
 	FieldGeolocation = "GEO"
 
 	// Organizational Properties
-	FieldTitle        = "TITLE"
+	FieldTitle        = "TITLE;CHARSET=utf-8"
 	FieldRole         = "ROLE"
 	FieldLogo         = "LOGO"
-	FieldOrganization = "ORG"
+	FieldOrganization = "ORG;CHARSET=utf-8"
 	FieldMember       = "MEMBER"
 	FieldRelated      = "RELATED"
 
